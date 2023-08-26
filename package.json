@@ -1,0 +1,49 @@
+{
+    "name": "bigfoot-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc -p .",
+        "dev": "nodemon ./src/app.ts",
+        "start": "npm run build && node ./build/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/debojitsaha/bigfoot-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/debojitsaha/bigfoot-api/issues"
+    },
+    "homepage": "https://github.com/debojitsaha/bigfoot-api#readme",
+    "dependencies": {
+        "@solana/spl-token": "^0.3.8",
+        "@solana/web3.js": "^1.78.0",
+        "bcryptjs": "^2.4.3",
+        "bs58": "^5.0.0",
+        "cloudinary": "^1.37.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.1",
+        "mongoose": "^6.4.4",
+        "multer": "^1.4.5-lts.1",
+        "multer-storage-cloudinary": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "@types/jsonwebtoken": "^9.0.2",
+        "@types/multer": "^1.4.7",
+        "@types/node": "^18.0.5",
+        "nodemon": "^2.0.22",
+        "prettier": "^2.8.5",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.7.4"
+    }
+}
